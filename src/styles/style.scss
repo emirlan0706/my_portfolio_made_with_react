@@ -1,0 +1,37 @@
+// Imports
+@import "./partials/variables.scss";
+@import "./partials/nav.scss";
+@import "./partials/shared.scss";
+@import "./partials/home.scss";
+@import "./partials/about.scss";
+@import "./partials/portfolio.scss";
+@import "./partials/animations.scss";
+@import "./partials/contact.scss";
+@import "./partials/footer.scss";
+
+// Global styles
+*{
+	margin: 0;
+	padding: 0;
+}
+
+::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: white;
+	opacity: 1;
+	/* Firefox */
+}
+body {
+	background-color: hsla(225, 62%, 15%, 1);
+	background-image:
+		radial-gradient(at 32% 61%, hsla(335, 28%, 50%, 1) 0px, transparent 50%),
+		radial-gradient(at 83% 56%, hsla(270, 100%, 40%, 1) 0px, transparent 50%),
+		radial-gradient(at 43% 34%, hsla(240, 100%, 40%, 1) 0px, transparent 50%),
+		radial-gradient(at 85% 33%, hsla(189, 100%, 40%, 1) 0px, transparent 50%),
+		radial-gradient(at 10% 71%, hsla(206, 100%, 40%, 1) 0px, transparent 50%),
+		radial-gradient(at 80% 99%, hsla(240, 100%, 40%, 1) 0px, transparent 50%);
+}
+
+
+
+

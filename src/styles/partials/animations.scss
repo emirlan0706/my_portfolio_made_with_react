@@ -1,0 +1,48 @@
+// TYPEWRITER
+@keyframes typing {
+	from {
+		width: 0
+	}
+
+	to {
+		width: 70%
+	}
+}
+
+@keyframes blink-caret {
+
+	from,
+	to {
+		border-color: transparent
+	}
+
+	50% {
+		border-color: $accent-color-green;
+	}
+}
+
+// BORDER BREATHING
+@keyframes wave {
+	0% {
+		border-radius: 100% 21% 100% 35% / 68% 44% 100% 64%;
+	}
+
+	50% {
+		border-radius: 53% 100% 82% 79% / 53% 100% 32% 100%;
+	}
+
+	100% {
+		border-radius: 100% 21% 100% 35% / 68% 44% 100% 64%;
+	}
+}
+
+// BUTTON HOVER
+@keyframes buttonHover {
+	0% {
+		box-shadow: none;
+	}
+
+	100% {
+		box-shadow: 0px 0px 10px 0px $accent-color-green;
+	}
+}

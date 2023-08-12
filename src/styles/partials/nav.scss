@@ -1,0 +1,59 @@
+nav {
+  background: $bg-color-nav;
+  height: 100vh;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $text-color-white;
+  text-align: center;
+  font-size: 1.2rem;
+  float: left;
+  position: fixed;
+}
+.nav-img {
+  width: 60%;
+  margin-top: 30px;
+  box-shadow: 10 10 30px #ff0000;
+  animation: wave 10s ease-in-out infinite;
+}
+.nav-name {
+  letter-spacing: 0.15rem;
+  font-family: "Poppins", sans-serif;
+}
+.nav-link {
+  margin-bottom: 15px;
+  background-color: rgba($color: #000000, $alpha: 0);
+  border: none;
+  color: $text-color-white;
+  font-size: 1.2rem;
+  border-bottom: 2px solid rgba($color: #000000, $alpha: 0);
+}
+.nav-link:hover {
+  cursor: pointer;
+  border-bottom: 2px solid $accent-color-green;
+}
+.nav-social {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.nav-toggle {
+  display: none;
+}
+.nav-active {
+  display: block;
+}
+
+@media screen and (max-width: 420px) {
+  nav {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: block;
+    float: right;
+    margin-left: 45%;
+    position: absolute;
+  }
+}

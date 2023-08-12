@@ -1,0 +1,71 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $text-color-white;
+  font-weight: 500;
+}
+.studies {
+  margin-top: 180px;
+  font-size: 1.2rem;
+  letter-spacing: 0.08rem;
+}
+
+// TECH STACK
+.techStack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.techStack img {
+  margin-top: 10px;
+}
+.techStack span {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+// MY INFO
+.about-img {
+  display: none;
+}
+.info {
+  margin-top: 50px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.myInfo div {
+  border-bottom: 1px solid $accent-color-green;
+  padding: 5px 0px;
+}
+.myInfo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+.buttonFill {
+  display: flex;
+}
+
+@media screen and (max-width: 420px) {
+  .info {
+    flex-direction: column;
+    width: 80%;
+  }
+  .studies {
+    font-size: 1rem;
+    margin-top: 150px;
+    width: 95%;
+    text-align: center;
+  }
+  .about-img {
+    display: block;
+    margin: 0px auto 10px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
