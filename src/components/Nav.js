@@ -35,7 +35,9 @@ export default function Nav() {
             src={me}
             alt="Portrait of an awesome person!"
           />
-          <div className="nav-name">Emirlan Abdykadyrov</div>
+          <div className="nav-name">
+            Emirlan <br /> Abdykadyrov
+          </div>
         </div>
         <ul className="nav-links">
           <li>

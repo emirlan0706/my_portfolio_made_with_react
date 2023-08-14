@@ -21,10 +21,13 @@ export default function Portfolio() {
                 is to help people save money and reduce waste.
               </div>
               <div className="project-links">
-                <a href="https://find-freebies.netlify.app">
+                <a className="red" href="https://find-freebies.netlify.app">
                   <button className="button buttonFill">Preview</button>
                 </a>
-                <a href="https://github.com/dr-Luka/find-freebies">
+                <a
+                  className="red"
+                  href="https://github.com/dr-Luka/find-freebies"
+                >
                   <button className="button buttonFill">Code</button>
                 </a>
               </div>
@@ -41,10 +44,10 @@ export default function Portfolio() {
                 space images. Have Fun!
               </div>
               <div className="project-links">
-                <a href="https://spacex-preview.netlify.app">
+                <a className="red" href="https://spacex-preview.netlify.app">
                   <button className="button buttonFill">Preview</button>
                 </a>
-                <a href="https://github.com/dr-Luka/spaceX">
+                <a className="red" href="https://github.com/dr-Luka/spaceX">
                   <button className="button buttonFill">Code</button>
                 </a>
               </div>
@@ -64,10 +67,10 @@ export default function Portfolio() {
                 out the code.
               </div>
               <div className="project-links">
-                <a href="https://code-wiki.netlify.app">
+                <a className="red" href="https://code-wiki.netlify.app">
                   <button className="button buttonFill">Preview</button>
                 </a>
-                <a href="https://github.com/dr-Luka/wiki">
+                <a className="red" href="https://github.com/dr-Luka/wiki">
                   <button className="button buttonFill">Code</button>
                 </a>
               </div>
