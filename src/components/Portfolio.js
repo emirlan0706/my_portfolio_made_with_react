@@ -40,7 +40,7 @@ export default function Portfolio() {
               <img src={spacex} alt="Project Screenshot"></img>
             </div>
             <div className="project-info">
-              <div className="project-name">STUFF-shop</div>
+              <div className="project-name">Stuff-shop</div>
               <div className="project-desc">
                 Welcome to the STUFF-shop - your destination for everything
                 related to innovative gadgets, stylish accessories and unique
@@ -64,12 +64,12 @@ export default function Portfolio() {
             </div>
 
             <div className="project-info">
-              <div className="project-name">Code Wiki</div>
+              <div className="project-name">Pretty-shop</div>
               <div className="project-desc">
-                On this website logged in users are able to create and edit
-                posts about coding. This was done with custom Heroku API which
-                in unfortunately down at the moment but I implore you to check
-                out the code.
+                Welcome to the PRETTY-shop web platform, your ideal place to
+                enrich your home with beautiful and functional furniture. Our
+                pages are intertwined with elegant designs and practical
+                solutions to make your home even cozier and more inviting.
               </div>
               <div className="project-links">
                 <a className="red" href="https://code-wiki.netlify.app">
