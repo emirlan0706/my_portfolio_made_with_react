@@ -105,7 +105,7 @@ export default function Portfolio() {
               <div className="project-desc">
                 Welcome to WEFootwear, a platform where style meets comfort and
                 innovation in the world of branded apparel and footwear. We
-                offer a wide range of high quality brands that combine fashion
+                offer awide range of high quality brands that combine fashion
                 trends and functionality.
               </div>
               <div className="project-links">
