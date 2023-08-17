@@ -52,10 +52,16 @@ export default function Portfolio() {
                 life more interesting.
               </div>
               <div className="project-links">
-                <a className="red" href="https://spacex-preview.netlify.app">
+                <a
+                  className="red"
+                  href="https://golden-gecko-6bc7ad.netlify.app/"
+                >
                   <button className="button buttonFill">Preview</button>
                 </a>
-                <a className="red" href="https://github.com/dr-Luka/spaceX">
+                <a
+                  className="red"
+                  href="https://github.com/emirlan0706/desigin-API"
+                >
                   <button className="button buttonFill">Code</button>
                 </a>
               </div>
