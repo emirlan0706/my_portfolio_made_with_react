@@ -23,12 +23,15 @@ export default function Portfolio() {
                 themselves in the NIKE atmosphere.
               </div>
               <div className="project-links">
-                <a className="red" href="https://find-freebies.netlify.app">
+                <a
+                  className="red"
+                  href="https://singular-jelly-eb1646.netlify.app/"
+                >
                   <button className="button buttonFill">Preview</button>
                 </a>
                 <a
                   className="red"
-                  href="https://github.com/dr-Luka/find-freebies"
+                  href="https://github.com/emirlan0706/nike-store-main"
                 >
                   <button className="button buttonFill">Code</button>
                 </a>
@@ -94,10 +97,13 @@ export default function Portfolio() {
                 trends and functionality.
               </div>
               <div className="project-links">
-                <a className="red" href="https://spacex-preview.netlify.app">
+                <a className="red" href="https://wefootwear.vercel.app/">
                   <button className="button buttonFill">Preview</button>
                 </a>
-                <a className="red" href="https://github.com/dr-Luka/spaceX">
+                <a
+                  className="red"
+                  href="https://github.com/emirlan0706/store-app-colab"
+                >
                   <button className="button buttonFill">Code</button>
                 </a>
               </div>
