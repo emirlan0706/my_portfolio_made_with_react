@@ -15,10 +15,12 @@ export default function Portfolio() {
             </div>
 
             <div className="project-info">
-              <div className="project-name">Find Freebies</div>
+              <div className="project-name">Nike style</div>
               <div className="project-desc">
-                Website that allows users to find freebies in their area. Goal
-                is to help people save money and reduce waste.
+                Welcome to our NIKE brand website! Here you will find an
+                exciting journey into the world of innovation, style and sport.
+                Our site is a unique space where brand fans can fully immerse
+                themselves in the NIKE atmosphere.
               </div>
               <div className="project-links">
                 <a className="red" href="https://find-freebies.netlify.app">
@@ -38,10 +40,13 @@ export default function Portfolio() {
               <img src={spacex} alt="Project Screenshot"></img>
             </div>
             <div className="project-info">
-              <div className="project-name">Space-X</div>
+              <div className="project-name">STUFF-shop</div>
               <div className="project-desc">
-                Tribute site to Space-X. Built in order to use amazing API for
-                space images. Have Fun!
+                Welcome to the STUFF-shop - your destination for everything
+                related to innovative gadgets, stylish accessories and unique
+                products! Our shelves are stocked with the latest and exciting
+                tech and trendy items that will enhance your style and make your
+                life more interesting.
               </div>
               <div className="project-links">
                 <a className="red" href="https://spacex-preview.netlify.app">
