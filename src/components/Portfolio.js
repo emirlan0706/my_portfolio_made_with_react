@@ -81,10 +81,16 @@ export default function Portfolio() {
                 solutions to make your home even cozier and more inviting.
               </div>
               <div className="project-links">
-                <a className="red" href="https://code-wiki.netlify.app">
+                <a
+                  className="red"
+                  href="https://645508de97943f10e7d9f4f2--comforting-croissant-f1de7f.netlify.app/"
+                >
                   <button className="button buttonFill">Preview</button>
                 </a>
-                <a className="red" href="https://github.com/dr-Luka/wiki">
+                <a
+                  className="red"
+                  href="https://github.com/emirlan0706/pretty-shop-react-app-v2"
+                >
                   <button className="button buttonFill">Code</button>
                 </a>
               </div>
