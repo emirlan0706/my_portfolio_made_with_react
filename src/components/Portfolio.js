@@ -81,6 +81,28 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
+          <div className="project reverse">
+            <div className="project-img">
+              <img src={spacex} alt="Project Screenshot"></img>
+            </div>
+            <div className="project-info">
+              <div className="project-name">Wefootwear</div>
+              <div className="project-desc">
+                Welcome to WEFootwear, a platform where style meets comfort and
+                innovation in the world of branded apparel and footwear. We
+                offer a wide range of high quality brands that combine fashion
+                trends and functionality.
+              </div>
+              <div className="project-links">
+                <a className="red" href="https://spacex-preview.netlify.app">
+                  <button className="button buttonFill">Preview</button>
+                </a>
+                <a className="red" href="https://github.com/dr-Luka/spaceX">
+                  <button className="button buttonFill">Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
