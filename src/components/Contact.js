@@ -21,6 +21,8 @@ export default function Contact() {
 
               <textarea placeholder="Tell me more about your needs......"></textarea>
               <div className="button-wrapper">
+                {/* react  */}
+
                 <button onClick={handleSubmit} className="button buttonFill">
                   Send Message
                 </button>

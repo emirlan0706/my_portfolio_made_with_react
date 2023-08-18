@@ -17,10 +17,10 @@ export default function Portfolio() {
             <div className="project-info">
               <div className="project-name">Nike style</div>
               <div className="project-desc">
-                Welcome to our NIKE brand website! Here you will find an
-                exciting journey into the world of innovation, style and sport.
-                Our site is a unique space where brand fans can fully immerse
-                themselves in the NIKE atmosphere.
+                Welcome to our NIKE brand website Here you will find an exciting
+                journey into the world of innovation, style and sport. Our site
+                is a unique space where brand fans can fully immerse themselves
+                in the NIKE atmosphere.
               </div>
               <div className="project-links">
                 <a
