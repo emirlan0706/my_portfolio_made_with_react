@@ -47,7 +47,7 @@ export default function Portfolio() {
               <div className="project-desc">
                 Welcome to the STUFF-shop - your destination for everything
                 related to innovative gadgets, stylish accessories and unique
-                products! Our shelves are stocked with the latest and exciting
+                products Our shelves are stocked with the latest and exciting
                 tech and trendy items that will enhance your style and make your
                 life more interesting.
               </div>
@@ -78,7 +78,7 @@ export default function Portfolio() {
                 Welcome to the PRETTY-shop web platform, your ideal place to
                 enrich your home with beautiful and functional furniture. Our
                 pages are intertwined with elegant designs and practical
-                solutions to make your home even cozier and more inviting.
+                solutions make your home even cozier and more inviting.
               </div>
               <div className="project-links">
                 <a
