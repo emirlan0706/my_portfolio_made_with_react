@@ -4,7 +4,7 @@ import Home from "./components/Home.js";
 import About from "./components/About.js";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <About />
         <Portfolio />
         <Contact />
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );
