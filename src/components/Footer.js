@@ -7,7 +7,7 @@ export default function Footer() {
         </div>
         <div id="hidden">
           <div>Terms & Policy</div>
-          {/* <div>Disclaimer</div> */}
+          <div>Disclaimer</div>
         </div>
       </div>
     </>
