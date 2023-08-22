@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="section footer">
+      {/* <div className="section footer">
         <div>
           Copyright © 2023 <span className="accent">Emka</span>
         </div>
@@ -9,7 +9,7 @@ export default function Footer() {
           <div>Terms & Policy</div>
           <div>Disclaimer</div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
