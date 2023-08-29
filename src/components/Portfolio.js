@@ -1,6 +1,8 @@
-import findfreebies from "../../src/media/images/projects/findfreebies.png";
-import spacex from "../../src/media/images/projects/spacex.png";
-import wiki from "../../src/media/images/projects/wiki.png";
+import dantist from "../../src/media/images/projects/dantist.png";
+import Nike from "../../src/media/images/projects/Nike.png";
+import Ww from "../../src/media/images/projects/Ww.png";
+import Pretty from "../../src/media/images/projects/Pretty.png";
+import Stuff from "../../src/media/images/projects/Stuff.png";
 
 export default function Portfolio() {
   return (
@@ -9,9 +11,33 @@ export default function Portfolio() {
         <div className="h2-bg">PORTFOLIO</div>
         <h2>My Work</h2>
         <div className="projects">
+          <div className="project reverse">
+            <div className="project-img">
+              <img src={dantist} alt="Project Screenshot"></img>
+            </div>
+            <div className="project-info">
+              <div className="project-name">DentRW</div>
+              <div className="project-desc">
+                my first project when I became a freelancer this project is a
+                dental clinic and the clinic itself is located in Kigali in
+                Rwanda and this site also contains all the data about the clinic
+              </div>
+              <div className="project-links">
+                <a className="red" href="https://dentrw-alx.vercel.app/">
+                  <button className="button buttonFill">Preview</button>
+                </a>
+                <a
+                  className="red"
+                  href="https://github.com/emirlan0706/Dentist"
+                >
+                  <button className="button buttonFill">Code</button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="project">
             <div className="project-img">
-              <img src={findfreebies} alt="Project Screenshot"></img>
+              <img src={Nike} alt="Project Screenshot"></img>
             </div>
 
             <div className="project-info">
@@ -40,7 +66,7 @@ export default function Portfolio() {
           </div>
           <div className="project reverse">
             <div className="project-img">
-              <img src={spacex} alt="Project Screenshot"></img>
+              <img src={Stuff} alt="Project Screenshot"></img>
             </div>
             <div className="project-info">
               <div className="project-name">Stuff-shop</div>
@@ -69,7 +95,7 @@ export default function Portfolio() {
           </div>
           <div className="project">
             <div className="project-img">
-              <img src={wiki} alt="Project Screenshot"></img>
+              <img src={Pretty} alt="Project Screenshot"></img>
             </div>
 
             <div className="project-info">
@@ -98,7 +124,7 @@ export default function Portfolio() {
           </div>
           <div className="project reverse">
             <div className="project-img">
-              <img src={spacex} alt="Project Screenshot"></img>
+              <img src={Ww} alt="Project Screenshot"></img>
             </div>
             <div className="project-info">
               <div className="project-name">Wefootwear</div>
