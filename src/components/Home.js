@@ -3,9 +3,9 @@ export default function Home() {
     let id = event.target.name;
     const section = document.getElementById(id);
     section.scrollIntoView({
-      // block: "start",
-      // behavior: "smooth",
-      // inline: "start",
+      block: "start",
+      behavior: "smooth",
+      inline: "start",
     });
   }
 
