@@ -17,7 +17,7 @@ export default function Home() {
         <div className="darken">based in Bishkek, Kyrgyzstyan</div>
         <div>
           <button onClick={scroll} className="button hireMe" name="contact">
-            {/* Hire Me */}
+            Hire Me
           </button>
         </div>
       </div>
