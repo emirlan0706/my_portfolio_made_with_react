@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Nav />
       <div className="page">
-        <Home />
+        {/* <Home /> */}
         <About />
         <Portfolio />
         <Contact />
