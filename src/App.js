@@ -12,7 +12,7 @@ function App() {
       <Nav />
       <div className="page">
         <Home />
-        <About />
+        {/* <About /> */}
         {/* <Portfolio /> */}
         {/* <Contact /> */}
         {/* <Footer /> */}
