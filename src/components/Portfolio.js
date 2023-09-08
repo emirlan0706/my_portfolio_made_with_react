@@ -1,6 +1,6 @@
 import dantist from "../../src/media/images/projects/dantist.png";
 import Nike from "../../src/media/images/projects/Nike.png";
-import Ww from "../../src/media/images/projects/Ww.png";
+
 import Pretty from "../../src/media/images/projects/Pretty.png";
 import Stuff from "../../src/media/images/projects/Stuff.png";
 
@@ -122,7 +122,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="project reverse">
+          {/* <div className="project reverse">
             <div className="project-img">
               <img src={Ww} alt="Project Screenshot"></img>
             </div>
@@ -146,7 +146,7 @@ export default function Portfolio() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
