@@ -1,5 +1,5 @@
 import stack from "../media/icons/stack.png";
-import men from "../media/images/men.png";
+import no2 from "../media/images/no2.jpeg";
 export default function About() {
   function scroll(event) {
     let id = event.target.name;
@@ -28,7 +28,7 @@ export default function About() {
           <div className="myInfo">
             <img
               className="nav-img about-img"
-              src={men}
+              src={no2}
               alt="Portrait of an awesome person!"
             />
             <div>

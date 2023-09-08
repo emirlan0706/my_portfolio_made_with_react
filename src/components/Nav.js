@@ -1,5 +1,5 @@
+import no2 from "../media/images/no2.jpeg";
 import React, { useState, useEffect } from "react";
-import men from "../media/images/men.png";
 import { AiFillLinkedin, AiOutlineGithub } from "react-icons/ai";
 
 export default function Nav() {
@@ -30,7 +30,7 @@ export default function Nav() {
         <div>
           <img
             className="nav-img"
-            src={men}
+            src={no2}
             alt="Portrait of an awesome person!"
           />
           <div className="nav-name">
